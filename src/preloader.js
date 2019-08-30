@@ -15,9 +15,8 @@ require.config({
 require(["pixi", "tweenmax", "howler", "seedrandom"], function (pixiClass, tweenmax, howler, seedrandom) {
     window["PIXI"] = pixiClass;
     window["seedrandom"] = seedrandom;
-    require(["main", "pixi-filters", "pixiSpine"], function (main, pixiFilters, pixiSpine) {
+    require(["main", "pixi-filters"], function (main, pixiFilters) {
         window["PIXI.filters"] = pixiFilters;
-        window["PIXI.spine"] = pixiSpine;
         new main.Main();
     });
 });

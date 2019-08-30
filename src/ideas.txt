@@ -1,0 +1,15 @@
+move with arrows or numpad
+attach with arrows or numpad
+
+modifier keys:
+w to run
+q to walk slowly
+d to push
+s to pull
+
+interact keys:
+space to pickup
+i for inventory
+l to look (starts at your char)
+numpad 5 to rest
+. to rest

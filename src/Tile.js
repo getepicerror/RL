@@ -23,17 +23,17 @@ define(["require", "exports", "./assets/Images", "./data/TextStyles"], function 
         }
         Tile.prototype.init = function () {
             this.back = PIXI.Sprite.fromFrame(Images_1.Images.SQUARE);
-            this.back.tint = Math.random() * 50;
+            this.back.tint = 0x000000;
             this.back.width = 12;
             this.back.height = 18;
             this.addChild(this.back);
             this.char = new PIXI.extras.BitmapText("", TextStyles_1.default.BOLD);
-            this.char.tint = 0xffffff;
+            this.char.tint = 0x222222;
             this.addChild(this.char);
             this.char.position.set(1, 0);
         };
         Tile.prototype.update = function (val) {
-            this.back.tint = Math.random() * 50;
+            this.back.tint = 0x000000;
             this.char.text = val;
         };
         return Tile;
