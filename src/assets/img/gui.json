@@ -1,64 +1,8 @@
 {"frames": {
 
-"gui/artefact_holder.png":
-{
-	"frame": {"x":1,"y":1,"w":519,"h":144},
-	"rotated": true,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":519,"h":144},
-	"sourceSize": {"w":519,"h":144}
-},
-"gui/artefact_holder_empty.png":
-{
-	"frame": {"x":403,"y":318,"w":519,"h":144},
-	"rotated": true,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":519,"h":144},
-	"sourceSize": {"w":519,"h":144}
-},
-"gui/bottombar_select.png":
-{
-	"frame": {"x":464,"y":305,"w":2,"h":78},
-	"rotated": true,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":2,"h":78},
-	"sourceSize": {"w":2,"h":78}
-},
-"gui/button.png":
-{
-	"frame": {"x":464,"y":1,"w":236,"h":82},
-	"rotated": true,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":236,"h":82},
-	"sourceSize": {"w":236,"h":82}
-},
-"gui/message_back.png":
-{
-	"frame": {"x":147,"y":318,"w":217,"h":89},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":217,"h":89},
-	"sourceSize": {"w":217,"h":89}
-},
-"gui/selection_back.png":
-{
-	"frame": {"x":147,"y":1,"w":315,"h":315},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":1,"w":315,"h":315},
-	"sourceSize": {"w":316,"h":316}
-},
-"gui/shine.png":
-{
-	"frame": {"x":1,"y":522,"w":400,"h":399},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":399},
-	"sourceSize": {"w":400,"h":399}
-},
 "gui/white.png":
 {
-	"frame": {"x":464,"y":239,"w":64,"h":64},
+	"frame": {"x":1,"y":1,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -69,8 +13,8 @@
 	"version": "1.0",
 	"image": "gui.png",
 	"format": "RGBA8888",
-	"size": {"w":548,"h":922},
+	"size": {"w":66,"h":66},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:60a5d47919a428c8c6ee5ddde5fd272f:98a4b24e32cc8c3aad0a477929f6e023:788b34ed4e778d63c84b2c3df4d44949$"
+	"smartupdate": "$TexturePacker:SmartUpdate:3301a57d6604946a633b0ca851678901:b9a804ad1f086574f32855728578000b:788b34ed4e778d63c84b2c3df4d44949$"
 }
 }
