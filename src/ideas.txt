@@ -4,8 +4,8 @@ attach with arrows or numpad
 modifier keys:
 w to run
 q to walk slowly
-d to push
-s to pull
+s to push
+a to pull
 
 interact keys:
 space to pickup

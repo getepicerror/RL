@@ -24,7 +24,7 @@ export class Tile extends PIXI.Container {
     }
 
     public update(val: string) {
-        this.back.tint = 0x000000//Math.random() * 50;//0x000000;
+        this.back.tint = 0x000000;//Math.random() * 50;//0x000000;
         this.char.text = val;
     }
 }
