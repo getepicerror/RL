@@ -1,0 +1,139 @@
+
+Bronco.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+library/bronko_0000_flash
+  rotate: false
+  xy: 969, 299
+  size: 238, 211
+  orig: 804, 951
+  offset: 277, 502
+  index: -1
+library/bronko_0001_aiming
+  rotate: false
+  xy: 2, 279
+  size: 386, 231
+  orig: 804, 951
+  offset: 207, 451
+  index: -1
+library/bronko_0002_leftThumb
+  rotate: true
+  xy: 836, 172
+  size: 106, 108
+  orig: 804, 951
+  offset: 549, 332
+  index: -1
+library/bronko_0003_leftFinger
+  rotate: false
+  xy: 533, 142
+  size: 136, 83
+  orig: 804, 951
+  offset: 563, 360
+  index: -1
+library/bronko_0004_leftArm
+  rotate: true
+  xy: 1209, 365
+  size: 145, 264
+  orig: 804, 951
+  offset: 479, 410
+  index: -1
+library/bronko_0005_rightThumb
+  rotate: true
+  xy: 722, 172
+  size: 106, 112
+  orig: 804, 951
+  offset: 103, 323
+  index: -1
+library/bronko_0006_rightFinger
+  rotate: true
+  xy: 378, 2
+  size: 132, 129
+  orig: 804, 951
+  offset: 77, 324
+  index: -1
+library/bronko_0007_rightArm
+  rotate: true
+  xy: 1475, 368
+  size: 142, 247
+  orig: 804, 951
+  offset: 158, 413
+  index: -1
+library/bronko_0008_leftshoe
+  rotate: true
+  xy: 311, 134
+  size: 143, 65
+  orig: 804, 951
+  offset: 435, 86
+  index: -1
+library/bronko_0009_rightShoe
+  rotate: true
+  xy: 509, 30
+  size: 104, 90
+  orig: 804, 951
+  offset: 206, 48
+  index: -1
+library/bronko_0010_pants
+  rotate: false
+  xy: 2, 53
+  size: 307, 224
+  orig: 804, 951
+  offset: 232, 236
+  index: -1
+library/bronko_0011_leftLeg
+  rotate: false
+  xy: 1882, 355
+  size: 107, 155
+  orig: 804, 951
+  offset: 441, 127
+  index: -1
+library/bronko_0012_rightLeg
+  rotate: true
+  xy: 378, 136
+  size: 89, 153
+  orig: 804, 951
+  offset: 252, 116
+  index: -1
+library/bronko_0013_talk
+  rotate: false
+  xy: 2, 27
+  size: 77, 24
+  orig: 804, 951
+  offset: 350, 643
+  index: -1
+library/bronko_0014_teeth
+  rotate: true
+  xy: 1991, 425
+  size: 85, 31
+  orig: 804, 951
+  offset: 348, 647
+  index: -1
+library/bronko_0015_eyelids
+  rotate: false
+  xy: 1209, 301
+  size: 244, 62
+  orig: 804, 951
+  offset: 276, 773
+  index: -1
+library/bronko_0016_head
+  rotate: false
+  xy: 722, 280
+  size: 245, 230
+  orig: 804, 951
+  offset: 275, 626
+  index: -1
+library/bronko_0017_body
+  rotate: false
+  xy: 390, 227
+  size: 330, 283
+  orig: 804, 951
+  offset: 226, 430
+  index: -1
+library/shadow
+  rotate: false
+  xy: 1724, 354
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1

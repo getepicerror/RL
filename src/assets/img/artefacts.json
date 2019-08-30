@@ -1,0 +1,68 @@
+{"frames": {
+
+"artefacts/CHROMATIC_LENSES.png":
+{
+	"frame": {"x":1,"y":296,"w":87,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":14,"w":87,"h":92},
+	"sourceSize": {"w":125,"h":125}
+},
+"artefacts/DIANAS_HELMET.png":
+{
+	"frame": {"x":1,"y":201,"w":87,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":87,"h":93},
+	"sourceSize": {"w":125,"h":125}
+},
+"artefacts/ENERGY_POUCH.png":
+{
+	"frame": {"x":1,"y":1,"w":87,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":8,"w":87,"h":98},
+	"sourceSize": {"w":125,"h":125}
+},
+"artefacts/FLASK_OF_IQUIRON.png":
+{
+	"frame": {"x":1,"y":101,"w":87,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":8,"w":87,"h":98},
+	"sourceSize": {"w":125,"h":125}
+},
+"artefacts/IMEORS_SHIELD.png":
+{
+	"frame": {"x":1,"y":390,"w":87,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":87,"h":87},
+	"sourceSize": {"w":125,"h":125}
+},
+"artefacts/PRISM_OF_AUGMENTATION.png":
+{
+	"frame": {"x":1,"y":479,"w":87,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":87,"h":87},
+	"sourceSize": {"w":125,"h":125}
+},
+"artefacts/QUANTUM_CRYSTAL.png":
+{
+	"frame": {"x":1,"y":568,"w":87,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":87,"h":87},
+	"sourceSize": {"w":125,"h":125}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "artefacts.png",
+	"format": "RGBA8888",
+	"size": {"w":89,"h":656},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:86397d9b4467a5be5e901bf72d11d2c5:16f312f9b6037bdf2ca9d0d666ac466e:5fa04c04c09f45fa2c81f57f0c74cee0$"
+}
+}
