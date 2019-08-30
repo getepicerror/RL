@@ -13,7 +13,7 @@ export class Tile extends PIXI.Container {
 
     private init() {
         this.back = PIXI.Sprite.fromFrame(Images.SQUARE);
-        this.back.tint = Math.random() * 100//0x000000;
+        this.back.tint = Math.random() * 50//0x000000;
         this.back.width = 12;
         this.back.height = 18;
         this.addChild(this.back);
@@ -24,7 +24,7 @@ export class Tile extends PIXI.Container {
     }
 
     public update(val: string) {
-        this.back.tint = Math.random() * 100;//0x000000;
+        this.back.tint = Math.random() * 50;//0x000000;
         this.char.text = val;
     }
 }

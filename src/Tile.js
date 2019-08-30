@@ -23,7 +23,7 @@ define(["require", "exports", "./assets/Images", "./data/TextStyles"], function 
         }
         Tile.prototype.init = function () {
             this.back = PIXI.Sprite.fromFrame(Images_1.Images.SQUARE);
-            this.back.tint = Math.random() * 100;
+            this.back.tint = Math.random() * 50;
             this.back.width = 12;
             this.back.height = 18;
             this.addChild(this.back);
@@ -33,7 +33,7 @@ define(["require", "exports", "./assets/Images", "./data/TextStyles"], function 
             this.char.position.set(1, 0);
         };
         Tile.prototype.update = function (val) {
-            this.back.tint = Math.random() * 100;
+            this.back.tint = Math.random() * 50;
             this.char.text = val;
         };
         return Tile;
