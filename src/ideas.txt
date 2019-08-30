@@ -13,3 +13,8 @@ i for inventory
 l to look (starts at your char)
 numpad 5 to rest
 . to rest
+
+
+doors are +, open doors are /. 
+Some enemies can not open doors.
+When next to an open door, pull or push to close.

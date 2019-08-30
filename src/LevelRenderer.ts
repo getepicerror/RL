@@ -3,7 +3,6 @@
 import { Tile } from "./Tile";
 import { Main } from "./main";
 import Level from "./data/Level";
-import "../lib/pSBC"
 
 export class LevelRenderer extends PIXI.Container {
     private tiles = [];

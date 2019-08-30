@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-define(["require", "exports", "./Tile", "./main", "./data/Level", "../lib/pSBC"], function (require, exports, Tile_1, main_1, Level_1) {
+define(["require", "exports", "./Tile", "./main", "./data/Level"], function (require, exports, Tile_1, main_1, Level_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var LevelRenderer = (function (_super) {
