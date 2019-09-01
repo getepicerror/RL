@@ -1,5 +1,6 @@
 import Utils from "../Utils";
 import { Config } from "./Config";
+import Player from "./Player";
 
 export default class GameData {
     private static HEALTH_AT_START = 50;
@@ -13,11 +14,13 @@ export default class GameData {
         "XP", "version"];
     public static seed;
     public static seedRandom;
+    public static player: Player;
 
     public static newGame() {
         this.health = this.HEALTH_AT_START;
         this.maxHealth = this.HEALTH_AT_START;
         this.version = Config.version;
+        this.player = new Player();
 
         this.seed = Math.floor(Math.random() * 1000000);
 
@@ -27,6 +30,7 @@ export default class GameData {
         this.health = this.HEALTH_AT_START;
         this.maxHealth = this.HEALTH_AT_START;
         this.version = Config.version;
+        this.player = new Player();
 
         this.seed = Math.floor(GameData.seedRandom() * 1000000);
 

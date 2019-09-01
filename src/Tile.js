@@ -28,13 +28,15 @@ define(["require", "exports", "./assets/Images", "./data/TextStyles"], function 
             this.back.height = 18;
             this.addChild(this.back);
             this.char = new PIXI.extras.BitmapText("", TextStyles_1.default.BOLD);
-            this.char.tint = 0x222222;
+            this.char.tint = 0xffffff;
             this.addChild(this.char);
             this.char.position.set(1, 0);
         };
-        Tile.prototype.update = function (val) {
-            this.back.tint = 0x000000;
+        Tile.prototype.updateText = function (val) {
             this.char.text = val;
+        };
+        Tile.prototype.updateBack = function (val) {
+            this.back.tint = val;
         };
         return Tile;
     }(PIXI.Container));

@@ -1,4 +1,4 @@
-define(["require", "exports", "./Config"], function (require, exports, Config_1) {
+define(["require", "exports", "./Config", "./Player"], function (require, exports, Config_1, Player_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var GameData = (function () {
@@ -8,12 +8,14 @@ define(["require", "exports", "./Config"], function (require, exports, Config_1)
             this.health = this.HEALTH_AT_START;
             this.maxHealth = this.HEALTH_AT_START;
             this.version = Config_1.Config.version;
+            this.player = new Player_1.default();
             this.seed = Math.floor(Math.random() * 1000000);
         };
         GameData.fakeGame = function () {
             this.health = this.HEALTH_AT_START;
             this.maxHealth = this.HEALTH_AT_START;
             this.version = Config_1.Config.version;
+            this.player = new Player_1.default();
             this.seed = Math.floor(GameData.seedRandom() * 1000000);
         };
         GameData.save = function () {

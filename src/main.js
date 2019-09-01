@@ -65,7 +65,6 @@ define(["require", "exports", "./GameStage", "./data/Config", "./assets/Images",
         };
         Main.render = function () {
             Config_1.Config.renderer.render(Main.stage);
-            console.log("render");
         };
         Main.renderEveryFrame = false;
         Main.hasFocus = true;

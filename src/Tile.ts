@@ -18,13 +18,17 @@ export class Tile extends PIXI.Container {
         this.back.height = 18;
         this.addChild(this.back);
         this.char = new PIXI.extras.BitmapText("", TextStyles.BOLD);
-        this.char.tint = 0x222222;
+        this.char.tint = 0xffffff;
         this.addChild(this.char);
         this.char.position.set(1, 0);
     }
 
-    public update(val: string) {
-        this.back.tint = 0x000000;//Math.random() * 50;//0x000000;
+    public updateText(val: string) {
+        //Math.random() * 50;//0x000000;
         this.char.text = val;
+    }
+
+    public updateBack(val: number) {
+        this.back.tint = val;
     }
 }

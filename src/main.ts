@@ -85,6 +85,6 @@ export class Main {
 
     public static render() {
         Config.renderer.render(Main.stage);
-        console.log("render");
+        // console.log("render");
     }
 }

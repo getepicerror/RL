@@ -25,16 +25,17 @@ export class LevelRenderer extends PIXI.Container {
     }
 
     public update() {
+        let result = Level.result;
         for (let i = 0; i < this.tiles.length; i++) {
-            this.tiles[i].update(Level.level[i]);
+            this.tiles[i].updateText(result[i]);
         }
     }
 
     public render() {
-        let t = new Date().getTime();
+        // let t = new Date().getTime();
         this.update();
         Main.render();
-        console.log(new Date().getTime() - t);
+        // console.log(new Date().getTime() - t);
     }
 
 }

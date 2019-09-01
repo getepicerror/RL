@@ -6,12 +6,14 @@ import TextStyles from "./data/TextStyles";
 import { Main } from "./main";
 import { LevelRenderer } from "./LevelRenderer";
 import Level from "./data/Level";
+import GameData from "./data/GameData";
 
 export class GameScreen extends PIXI.Container {
     private back;
     private levelRenderer: LevelRenderer;
     constructor() {
-        super()
+        super();
+        GameData.newGame();
         Level.init();
         this.init();
 
@@ -19,6 +21,7 @@ export class GameScreen extends PIXI.Container {
         this.on("pointermove", (e) => this.onMove(e));
         this.on("pointertap", (e) => this.onTap(e));
         window.addEventListener("keydown", (e) => this.onKey(e));
+        window.addEventListener("keyup", (e) => this.onKeyUp(e));
     }
 
     private init() {
@@ -50,10 +53,43 @@ export class GameScreen extends PIXI.Container {
 
     private onKey(e) {
         if (!Main.hasFocus) return;
-        console.log(e);
+        console.log(e.key);
         switch (e.key) {
-            case '':
+            case 'ArrowRight':
+                Level.update("right");
+                break;
+            case 'ArrowLeft':
+                Level.update("left");
+                break;
+            case 'ArrowUp':
+                Level.update("up");
+                break;
+            case 'ArrowDown':
+                Level.update("down");
+                break;
+            case '.':
+                Level.update("");
+            case 'a':
+                GameData.player.isPulling = true;
                 break
+            case 's':
+                GameData.player.isPushing = true;
+                break
+
+        }
+        this.levelRenderer.render();
+    }
+
+    private onKeyUp(e) {
+        if (!Main.hasFocus) return;
+        switch (e.key) {
+            case 'a':
+                GameData.player.isPulling = false;
+                break
+            case 's':
+                GameData.player.isPushing = false;
+                break
+
         }
         this.levelRenderer.render();
     }

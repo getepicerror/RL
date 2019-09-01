@@ -35,15 +35,14 @@ define(["require", "exports", "./Tile", "./main", "./data/Level"], function (req
             this.update();
         };
         LevelRenderer.prototype.update = function () {
+            var result = Level_1.default.result;
             for (var i = 0; i < this.tiles.length; i++) {
-                this.tiles[i].update(Level_1.default.level[i]);
+                this.tiles[i].updateText(result[i]);
             }
         };
         LevelRenderer.prototype.render = function () {
-            var t = new Date().getTime();
             this.update();
             main_1.Main.render();
-            console.log(new Date().getTime() - t);
         };
         return LevelRenderer;
     }(PIXI.Container));
