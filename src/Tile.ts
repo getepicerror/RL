@@ -23,7 +23,7 @@ export class Tile extends PIXI.Container {
         this.char.position.set(1, 0);
     }
 
-    public updateText(val: string) {
+    public updateText(val: string, color: number = 0xffffff) {
         //Math.random() * 50;//0x000000;
         this.char.text = val;
     }

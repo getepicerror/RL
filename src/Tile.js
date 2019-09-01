@@ -32,7 +32,8 @@ define(["require", "exports", "./assets/Images", "./data/TextStyles"], function 
             this.addChild(this.char);
             this.char.position.set(1, 0);
         };
-        Tile.prototype.updateText = function (val) {
+        Tile.prototype.updateText = function (val, color) {
+            if (color === void 0) { color = 0xffffff; }
             this.char.text = val;
         };
         Tile.prototype.updateBack = function (val) {
