@@ -1,3 +1,6 @@
 TODO
-
+v push/pull objects
+* visibility
+* memory of previously visible
+* 
 BUGS
